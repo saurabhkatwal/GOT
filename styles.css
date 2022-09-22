@@ -1,0 +1,10 @@
+.list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+a{
+    cursor: pointer;
+}
+.togglers>a.active{
+    border:1px solid #ccc;
+}
